@@ -1,5 +1,5 @@
 /////////// Prompt 1 ///////////
-/////////// time complexity: 
+/////////// time complexity: linear
 function findMax(array){
   var max = -Infinity;
   for (var i = 0; i < array.length; i++){
@@ -12,22 +12,22 @@ function findMax(array){
 
 
 /////////// Prompt 2 ///////////
-/////////// time complexity: 
+/////////// time complexity: linear
 function contains(array, target){
   return array.indexOf(target) > -1;
 }
 
 
 /////////// Prompt 3 ///////////
-/////////// time complexity: 
+/////////// time complexity: constant
 function partialContains(array, target, start){
   return array.slice(start).indexOf(target) > -1;
 }
 
 
 /////////// Prompt 4 ///////////
-/////////// time complexity: 
-function square(array){
+/////////// time complexity: linear
+function square(array){ 
   for (var i = 0; i < 3; i++){
     array[i] = array[i] * array[i];
   }
@@ -35,7 +35,7 @@ function square(array){
 }
 
 /////////// Prompt 5 ///////////
-/////////// time complexity: 
+/////////// time complexity: quadratic
 function repeat(array){
   var repeat = [];
   for (var j = 0; j < 10; j++){
@@ -67,7 +67,7 @@ function gcf(num1, num2){
 
 
 /////////// Prompt 7 ///////////
-/////////// time complexity: 
+/////////// time complexity: quadratic
 function countChar(string){
   var counts = {};
   var currChar, currCharCount;
@@ -88,7 +88,7 @@ function countChar(string){
 
 
 /////////// Prompt 8 ///////////
-/////////// time complexity: 
+/////////// time complexity: linear
 var factorial = function(num){
   if (num < 0){
     return;
@@ -102,7 +102,7 @@ var factorial = function(num){
 
 
 /////////// Prompt 9 ///////////
-/////////// time complexity: 
+/////////// time complexity: logarithmic
 function tournament(players){
   var results;
   if (players.length < 3){
